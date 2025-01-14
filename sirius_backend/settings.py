@@ -37,7 +37,18 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    # Apps internas
+    'accounts',
+    'payments',
+    'pets',
+
+    # Apps de terceros
+    # 'django-allauth', 
+    'rest_framework', 
+    # 'dj-rest-auth',
 ]
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

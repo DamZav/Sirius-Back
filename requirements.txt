@@ -1,0 +1,28 @@
+asgiref==3.8.1
+certifi==2024.12.14
+cffi==1.17.1
+charset-normalizer==3.4.1
+cryptography==44.0.0
+dj-rest-auth==7.0.1
+Django==5.1.4
+django-allauth==65.3.1
+django-environ==0.11.2
+djangorestframework==3.15.2
+idna==3.10
+mercadopago==2.2.3
+paypalrestsdk==1.13.3
+Pillow==10.0.1
+requests==2.32.3
+sqlparse==0.5.3
+typing_extensions==4.12.2
+urllib3==2.3.0
+
+
+Pillow==10.0.1 # Necesaria pa imágenes (e.g., fotos de mascotas).
+
+# # whitenoise==6.5.0: Recomendado para manejar archivos estáticos en producción (sin un servidor dedicado como Nginx).
+# gunicorn==20.1.0: Requerido si usas un servidor WSGI como Gunicorn en producción.
+# psycopg2==2.9.8 (o mysqlclient): Necesario si usas PostgreSQL o MySQL en producción.
+# django-cors-headers==4.0.0: Si el frontend en React está en un dominio separado, necesitas manejar CORS.
+
+
