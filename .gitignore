@@ -1,5 +1,33 @@
+# *.pyc
+# __pycache__/
+# db.sqlite3
+# *.log
+# *.env
+
+# Python
 *.pyc
+*.pyo
 __pycache__/
-db.sqlite3
 *.log
+
+# Entornos virtuales
+venv/
+env/
+sirio/
+
+# Bases de datos locales
+db.sqlite3
+
+# Archivos de configuración y secretos
 *.env
+
+# Archivos de sistema (MacOS, Windows)
+.DS_Store
+Thumbs.db
+
+# Archivos de migración (opcional)
+# migrations/*
+
+# Excluir directorios de dependencias
+*.egg-info/
+.eggs/
