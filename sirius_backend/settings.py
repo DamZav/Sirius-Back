@@ -50,6 +50,9 @@ INSTALLED_APPS = [
 ]
 
 
+AUTH_USER_MODEL = 'accounts.Usuario' #Esto le dice a Django que use el modelo Usuario en lugar de auth.User
+
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
